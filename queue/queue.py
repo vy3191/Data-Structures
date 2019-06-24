@@ -27,8 +27,7 @@ class Linked_List:
        self.head = node
     self.count += 1   
       
-  def add_to_tail(self, value):
-    
+  def add_to_tail(self, value):    
     node = Node(value)
     #if there is only one node at all in the list
     if self.head == None:
